@@ -1,0 +1,13 @@
+(base) root@bc4bbaffdfe3:/home# python hw6.py
+2018-08-22 21:21:52,774 : INFO : Создаём подключёние к Postgres
+2018-08-22 21:21:52,821 : INFO : Выгружаем данные из таблицы movies_top: (movieId, ratings_num, ratings_avg)
+[(6114, 1, 3.5), (273, 27, 3.12962962962963), (3936, 6, 3.0), (128606, 1, 4.5), (4326, 11, 4.09090909090909), (2520, 15, 3.36666666666667), (25886, 1, 4.0), (1750, 1, 2.0), (4321, 28, 3.46428571428571), (5230, 1, 4.0)]
+Достали документы из Mongo: [{'_id': ObjectId('5b7dce748c013c01b94381e4'), 'id': 931, 'name': 'jealousy', 'movieId': 862}, {'_id': ObjectId('5b7dce748c013c01b94381ff'), 'id': 4995, 'name': 'aging', 'movieId': 11862}, {'_id': ObjectId('5b7dce748c013c01b943821f'), 'id': 380, 'name': 'brother brother relationship', 'movieId': 11860}, {'_id': ObjectId('5b7dce748c013c01b9438224'), 'id': 949, 'name': 'terrorist', 'movieId': 9091}, {'_id': ObjectId('5b7dce748c013c01b9438226'), 'id': 1653, 'name': 'explosive', 'movieId': 9091}]
+tags
+female nudity                   563
+world war ii                    394
+monster                         285
+jealousy                        197
+brother brother relationship    176
+Name: movieid, dtype: int64
+2018-08-22 21:21:52,973 : INFO : Домашка выполнена!
